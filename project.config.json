@@ -1,0 +1,23 @@
+{
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "autoCompile": true,
+        "compileHotReLoad": true,
+        "nativeCompile": true,
+        "IDEPreviewHotRestartCache": true,
+        "IDEPreviewOpenVConsole": false
+    },
+    "appid": "testAppId",
+    "projectname": "你画我猜",
+    "douyinProjectType": "native",
+    "condition": {
+        "miniprogram": {
+            "current": -1,
+            "list": []
+        }
+    }
+}

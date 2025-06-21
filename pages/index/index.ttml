@@ -1,0 +1,13 @@
+<view class="container">
+    <!-- <image src="/assets/imgs/empty.png" class="placeholder"></image> -->
+    <view class="canvas-item">
+        <canvas canvas-id="main-canvas" type="2d" class="main-canvas"
+            bindtouchstart="testBindtouchstart"
+            bindtouchmove="testBindtouchmove" bindtouchend="testBindtouchend"
+            bindtouchcancel="testBindtouchcancel" binderror="testBinderror">
+        </canvas>
+    </view>
+    <view class="btn-area">
+        <button bindtap="clearCanvas" class="btn-clear" type="primary">清空画板</button>
+    </view>
+</view>
